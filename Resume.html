@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume</title>
+  </head>
+  <body>
+    <h2 align="center">
+      <b
+        ><i><u>Resume</u></i></b
+      >
+    </h2>
+    <form action="#" method="post">
+      <fieldset>
+        <legend align="center">
+          <b><i>Personal Information</i></b>
+        </legend>
+        <!-- <form action="#" method="post"> -->
+        <label for="">First Name: </label>
+        <input type="text" name="Name" required />
+        <label for="">Middle Name: </label>
+        <input type="text" name="Middle name" required />
+        <label for="">Last Name: </label>
+        <input type="text" name="Last name" required />
+        <br /><br />
+        <label for="">Date of Birth: </label>
+        <input type="date" name="DOB" required />
+        <br /><br />
+        <label for="">Profile Photo: </label>
+        <input type="file" name="pic" required />
+        <br /><br />
+        <label for="">Address: </label>
+        <br />
+        <textarea name="" id="" cols="50" rows="7"></textarea>
+        <!-- </form> -->
+      </fieldset>
+      <br /><br />
+
+      <fieldset>
+        <legend align="center">
+          <b><i>Contact Information</i></b>
+        </legend>
+        <!-- <form action="#" method="post"> -->
+        <label for="">Contact Number: </label>
+        <input type="number" name="no." required />
+        <!-- <br /><br /> -->
+        <label for="">Email ID: </label>
+        <input type="url" name="link" required />
+        <br /><br />
+        <label for="">LinkedIn Profile: </label>
+        <input type="url" name="linkedin" required />
+        <label for="">Github Profile: </label>
+        <input type="url" name="github" required />
+        <label for="">Twitter Profile: </label>
+        <input type="url" name="twitter" required />
+        <!-- </form> -->
+      </fieldset>
+      <br /><br />
+      <fieldset>
+        <legend align="center">
+          <b><i>Education</i></b>
+        </legend>
+        <!-- <form action="#" method="post"> -->
+        <label for="">SSC Qualification Year: </label>
+        <input type="month" name="ssc" required />
+
+        <label for="">Grade: </label>
+        <input type="radio" name="A" value="A" />A
+        <input type="radio" name="A" value="B" />B
+        <input type="radio" name="A" value="C" />C
+        <input type="radio" name="A" value="D" />D <br /><br />
+        <label for="">HSC Qualification Year: </label>
+        <input type="month" name="hsc" required />
+        <label for="">Grade: </label>
+        <input type="radio" name="B" value="A" />A
+        <input type="radio" name="B" value="B" />B
+        <input type="radio" name="B" value="C" />C
+        <input type="radio" name="B" value="D" />D <br /><br />
+        <label for="">Degree Qualification Year: </label>
+        <input type="month" name="qualification-year" required />
+        <label for="">Select Branch: </label>
+        <select name="" id="">
+          <option value="">Computer Engineering</option>
+          <option value="">Information Technology</option>
+          <option value="">Electrical Engineering</option>
+          <option value="">Mechanical Engineering</option>
+          <option value="">Civil Engineering</option>
+          <option value="">Electronics & Communication</option>
+          <option value="">Automobile Engineering</option>
+        </select>
+        <!-- </form> -->
+      </fieldset>
+      <br /><br />
+      <fieldset>
+        <legend align="center">
+          <b><i>Experience</i></b>
+        </legend>
+        <!-- <form action="#" method="post"> -->
+        <label for="">Company/Institute Name: </label>
+        <input type="text" name="comp.name" />
+        <label for="">Position: </label>
+        <select name="" id="">
+          <option value="">Front-end Web Developer</option>
+          <option value="">Back-end Web Developer</option>
+          <option value="">Full-Stack Web Developer</option>
+          <option value="">Data Scientist</option>
+          <option value="">Android Developer</option>
+          <option value="">Computer Network Architect</option></select
+        ><br /><br />
+        <label for="">Duration: </label>
+        <label for="">Date of Joining: </label>
+        <input type="date" name="joining-date" />
+        <label for="">Date of Completion: </label>
+        <input type="date" name="completion-date" />
+        <label for="">Currently Working</label>
+        <input type="checkbox" name="present-working" />
+        <br /><br />
+        <label for="">Description:</label><br />
+        <textarea name="" id="" cols="80" rows="5"></textarea>
+        <!-- </form> -->
+      </fieldset>
+      <br /><br />
+      <fieldset>
+        <legend align="center">
+          <b><i>Project, Skills & Interests</i></b>
+        </legend>
+        <!-- <form action="#" method="post"> -->
+        <label for="">Project Title: </label>
+        <input type="text" name="project" />
+        <label for="">Project Link: </label>
+        <input type="url" name="project-link" />
+        <label for="">Duration: </label>
+        <input type="month" name="project-duration" /><br /><br />
+        <label for="">Projrct Description: </label><br />
+        <textarea name="" id="" cols="70" rows="4"></textarea>
+        <br /><br />
+        <label for="">Mention your Skills: </label><br />
+        <textarea name="" id="" cols="70" rows="4"></textarea><br /><br />
+        <label for="">Interests: </label><br />
+        <textarea name="" id="" cols="70" rows="4"></textarea>
+        <!-- </form> -->
+      </fieldset>
+      <fieldset>
+        <legend align="center">
+          <b><i>Awards & Acknowledgements</i></b>
+        </legend>
+        <!-- <form action="#" method="post"></form> -->
+        <label for="">Upload your Credentials: </label>
+        <input type="file" name="credential" />
+      </fieldset>
+      <br /><br />
+      <p align="center">
+        <input type="submit" name="submit" value="submit-resume" />
+      </p>
+    </form>
+  </body>
+</html>
